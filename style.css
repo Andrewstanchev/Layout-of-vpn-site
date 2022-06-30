@@ -40,6 +40,7 @@ display: flex;
 width: 148px;
 height: 36.23px;
 margin-top: 50px;
+margin-left: 121px;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -68,8 +69,9 @@ height: 19px;
 list-style: none;
 margin-right: 40px;
 }
-
-
+.menu__item:hover {
+  transform: scale(1.2);
+}
 
 
 .header__buttons {
@@ -77,6 +79,17 @@ margin-right: 40px;
   justify-content: space-between;
   align-items: center;
   
+}
+
+.button__sign__in {
+  width: 53px;
+  height: 19px;
+  line-height: 18.96px;
+  font-size: 16px;
+  color: #0B132A;
+}
+.button__sign__in:hover {
+  transform: scale(1.2);
 }
 .sign__up {
 margin: 0px;
@@ -90,8 +103,12 @@ margin: 0px;
   justify-content: center;
   align-items: center;
   margin-left: 29px;
+  margin-right: 120px;
   width: 150px;
 height: 45px;
+}
+.sign__up:hover {
+  transform: scale(1.2);
 }
 .button__sign__up {
 
