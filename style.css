@@ -209,3 +209,21 @@ color: #FFFFFF;
   max-width: 612px;
   height: 383px;
 }
+
+/* -------------------- ABOUT-INFO-LINE STYLES ------------------- */
+.about-info-line {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 155px;
+  padding: 20px;
+}
+.about-info-line > div {
+  display: flex;
+  justify-content: space-between;
+  width: 145px;
+}
+.about-info-line > div > div {
+ line-height: 100%;
+ width: 54px;
+ 
+}
