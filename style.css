@@ -25,43 +25,45 @@ a {
 
 }
 
-.header__container {
+/* -------------------- HEADER STYLES ------------------- */
+
+.header-container {
 display: flex;
  justify-content: space-around;
- width: 100%;
+ width: 100vw;
  height: 136px;
- border: 1px solid black;
+    
  position: fixed;
  left: 0px;
  top: 0px;
 }
 .logo {
-
 width: 148px;
 height: 36.23px;
 margin-top: 50px;
-margin-left: 121px;
+margin-left: 150px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-
 }
-.header__logo {
+
+
+.header-logo {
   font-weight: 500;
 font-size: 20px;
 line-height: 24px;
 color: #0B132A;
 }
-.header__menu {
+.header-menu {
   margin-top: 59px;
 }
-.menu__list {
+.menu-list {
 display: flex;
 justify-content: space-between;
 margin: 0px;
 }
 
-.menu__item {
+.menu-item {
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
@@ -69,33 +71,33 @@ height: 19px;
 list-style: none;
 margin-right: 40px;
 }
-.menu__item:hover {
+.menu-item:hover {
   transform: scale(1.2);
 }
 
 
-.header__buttons {
+.header-buttons {
   display:flex;
   justify-content: space-between;
   align-items: center;
   
 }
 
-.button__sign__in {
+.button-sign-in {
   width: 53px;
   height: 19px;
   line-height: 18.96px;
   font-size: 16px;
   color: #0B132A;
 }
-.button__sign__in:hover {
+.button-sign-in:hover {
   transform: scale(1.2);
 }
-.sign__up {
+.sign-up {
 margin: 0px;
 }
 
-.sign__up {
+.sign-up {
   flex: 0 0 150px;
   border: 1px solid #F53855;
   border-radius: 50px;
@@ -107,10 +109,10 @@ margin: 0px;
   width: 150px;
 height: 45px;
 }
-.sign__up:hover {
+.sign-up:hover {
   transform: scale(1.2);
 }
-.button__sign__up {
+.button-sign-up {
 
   font-size: 16px;
   color: #F53855;
@@ -118,7 +120,7 @@ height: 45px;
 }
 
 
-.menu__btn {
+.menu-btn {
   display: flex; 
   align-items: center;
   position: fixed;
@@ -128,4 +130,82 @@ height: 45px;
   height: 26px;
   cursor: pointer;
   z-index: 1;
+}
+
+/* -------------------- GET STARTED STYLES ------------------- */
+.get-started {
+  display: flex;
+  justify-content: space-between;
+  
+  
+  margin-top: 179px;
+  margin-left: 150px;
+  margin-right: 83px;
+  
+}
+
+.get-started-left {
+     
+  width: 555px;
+  height: 330px;
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.get-started-left > h2 {
+     
+  margin: 0px;
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 140%;
+color: #0B132A;
+
+}
+.get-started-left > h2 > span  {
+  font-weight: bolder;
+}
+.get-started-left > p {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 188%;
+color: #4F5665;
+}
+
+
+.get-started-btn {
+  width: 250px;
+  height: 60px;
+  left: 155px;
+  top: 477px;
+  background-color: #F53838;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0px 10px black, 0 10px 10px #F53838;
+}
+.btn-get-started {
+     
+font-style: normal;
+font-size: 16px;
+line-height: 25px;
+color: #FFFFFF;
+}
+
+
+.get-started-right {
+     
+  height: 383px;
+  width: 40vw;
+  max-width: 612px;
+}
+.get-started-right > img {
+  position: relative;
+  width: 40vw;
+  max-width: 612px;
+  height: 383px;
 }
