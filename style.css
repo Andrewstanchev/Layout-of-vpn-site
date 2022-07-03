@@ -228,3 +228,64 @@ color: #FFFFFF;
  width: 54px;
  
 }
+
+/* -------------------- FEATURES_MENU STYLES ------------------- */
+.features-menu {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 163px;
+}
+.features-menu-left {
+  width: 35vw;
+margin-left: 183px;
+}
+.features-menu-left > img {
+  width: 35vw;
+}
+.features-menu-right {
+display: flex;
+flex-direction: column;
+justify-content: end;
+width: 30vw;
+}
+
+.features-menu-right > h3 {
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 50px;
+color: #0B132A;
+}
+.features-menu-right > p {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #4F5665;
+}
+
+
+.features-menu-right > ul > li {
+list-style: none; /* Це я роблю маркери у вигляді галочок. */
+background: url(img/li-marker.svg) no-repeat 0 4px; /* Це я роблю маркери у вигляді галочок. */
+padding-left: 34px; /* Це я роблю маркери у вигляді галочок. */
+margin-left: -40px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 30px;
+color: #4F5665;
+}
+.shadow-features-menu {
+  position: absolute;
+width: 1068.84px;
+height: 189.22px;
+left: 185.58px;
+top: 717.35px;
+
+background: #0D1025;
+opacity: 0.1;
+filter: blur(114px);
+border-radius: 10px;
+
+}
