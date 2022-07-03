@@ -32,10 +32,11 @@ display: flex;
  justify-content: space-around;
  width: 100vw;
  height: 136px;
-    
+  z-index: 10; 
  position: fixed;
  left: 0px;
  top: 0px;
+ background-color: white;
 }
 .logo {
 width: 148px;
