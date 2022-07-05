@@ -153,6 +153,8 @@ a {
 }
 
 .get-started-left > h2 {
+  width: 555px;
+  height: 140px;
   margin: 0px;
   font-style: normal;
   font-weight: 500;
@@ -166,6 +168,8 @@ a {
 }
 
 .get-started-left > p {
+  width: 555px;
+  height: 60px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -252,6 +256,8 @@ a {
 }
 
 .features-menu-right > h3 {
+  width: 383.41px;
+  height: 100px;
   font-style: normal;
   font-weight: 500;
   font-size: 35px;
@@ -260,6 +266,8 @@ a {
 }
 
 .features-menu-right > p {
+  width: 427.88px;
+  height: 60px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -268,10 +276,11 @@ a {
 }
 
 .features-menu-right > ul > li {
-  list-style: none; /* Це я роблю маркери у вигляді галочок. */
-  background: url(img/li-marker.svg) no-repeat 0 4px; /* Це я роблю маркери у вигляді галочок. */
-  padding-left: 34px; /* Це я роблю маркери у вигляді галочок. */
+  list-style: none; 
+  background: url(img/li-marker.svg) no-repeat 0 4px; 
+  padding-left: 34px; 
   margin-left: -40px;
+  margin-bottom: 15px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -391,3 +400,46 @@ input[id = "premium"]:checked ~ label[for = "premium"] {
 .btn-select {
   color: #F53838;
 }
+
+/*------VPN-MAP-STYLES----------*/
+
+.vpn-map {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vpn-map > h3 {
+  width: 383.41px;
+  height: 100px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  color: #0B132A;
+}
+
+.vpn-map > p {
+  width: 555px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #4F5665;
+  margin-bottom: 150px;
+}
+
+img[class = "vpn-map"] {
+  width: 1060px;
+  height: 537.77px;
+  margin-bottom: 0px;
+}
+
+.sponsored {
+  width: 1135.64px;
+  height: 208.32px;
+  margin-top: 35px;
+}
+
