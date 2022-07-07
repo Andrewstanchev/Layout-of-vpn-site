@@ -389,3 +389,37 @@ input[id = "premium"]:checked ~ label[for = "premium"] {
 .btn-select {
   color: #F53838;
 }
+
+/*-------------REVIEWS-MENU-STYLES-----------------*/
+
+.reviews-menu {
+
+}
+
+.reviews-menu-up {
+
+}
+
+.reviews-menu-up > h3 {
+  width: 447.81px;
+  height: 100px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  color: #0B132A;
+}
+
+.reviews-menu-up > p {
+  width: 555px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #4F5665;
+}
+
+.reviews-menu-down {
+
+}
