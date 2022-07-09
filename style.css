@@ -24,7 +24,6 @@ a {
 .main {
   flex: 1 1 auto;
   z-index: 5;
-  border: 1px solid black;
 }
 
 /* -------------------- HEADER STYLES ------------------- */
@@ -39,7 +38,6 @@ a {
   left: 0px;
   top: 0px;
   background-color: white;
-  border: 1px solid black;
 }
 
 .logo {
@@ -50,7 +48,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
 }
 
 .header-logo {
@@ -58,7 +55,6 @@ a {
   font-size: 20px;
   line-height: 24px;
   color: #0B132A;
-
 }
 
 .header-menu {
